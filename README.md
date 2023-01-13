@@ -13,4 +13,5 @@ Summary of CS-E4820 - Machine Learning: Advanced Probabilistic Methods @ Aalto U
      style="float: left; margin-right: 10px;" />
   
 </details>
-$$x^2$$
+
+$x^2$
