@@ -56,34 +56,6 @@ $$\begin{aligned}
 $x^2$
 
 
-
-
-<details>
-  <summary>Click me</summary>
-  
-  ### Heading
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
-  <details>
-  <summary>Click me</summary>
-  
-  ### Heading
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
-
-  ### Some Code
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
-</details>
-     
-     
     1. Models
       * Bayesian networks
       * Sparse Bayesian linear regression
@@ -99,12 +71,5 @@ $x^2$
       * ::MCMC methods (missing)::
     3. Ways to select between models
      * Baz
-     * Qux     
-  
-  ### Some Code
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
-</details>
+     * Qux
+
