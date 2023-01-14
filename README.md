@@ -48,7 +48,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 * Marginilisation
-* Probabilitis
+* ::Probabilitis::
 
   
 </details>
