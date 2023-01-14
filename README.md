@@ -5,20 +5,13 @@ Summary of CS-E4820 - Machine Learning: Advanced Probabilistic Methods @ Aalto U
 <details open>
 <summary>Summary of Lec 1</summary>
 
-* Joint Distribution
-     > **example**
-     
-* Marginilisation
-* Probabilitis
-<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjEMSPtUWUY7xJ2n8mNUOr1RWajGqEGcZyJNjGtqtW5WMgor-m"
+     > Main Book
+     <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjEMSPtUWUY7xJ2n8mNUOr1RWajGqEGcZyJNjGtqtW5WMgor-m"
      alt="Bishop"
      style="width:200px;" />
-  
-</details>
-
-$x^2$
-
-$$\begin{aligned}
+* Joint Distribution
+     > **example**
+     $$\begin{aligned}
 &\text { Table 1: A table without vertical lines. }\\
 &\begin{array}{lcc}
 \hline & \text { Treatment A } & \text { Treatment B } \\
@@ -28,3 +21,12 @@ $$\begin{aligned}
 \hline
 \end{array}
 \end{aligned}$$
+
+* Marginilisation
+* Probabilitis
+
+  
+</details>
+
+$x^2$
+
