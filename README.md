@@ -5,12 +5,13 @@ Summary of CS-E4820 - Machine Learning: Advanced Probabilistic Methods @ Aalto U
 <details open>
 <summary>Summary of Lec 1</summary>
 
-     
-               <details open>
-                    <summary>Main Book</summary>
-                         <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjEMSPtUWUY7xJ2n8mNUOr1RWajGqEGcZyJNjGtqtW5WMgor-m" alt="Bishop"
+<p>     
+<details open>
+<summary>Main Book</summary>
+<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjEMSPtUWUY7xJ2n8mNUOr1RWajGqEGcZyJNjGtqtW5WMgor-m" alt="Bishop"
                style="width:200px;" />
-                    </details>
+     </details></p>
+     
 * Joint Distribution
      
      > **example**
