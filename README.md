@@ -30,6 +30,7 @@ Summary of CS-E4820 - Machine Learning: Advanced Probabilistic Methods @ Aalto U
       * ::MCMC methods (missing)::
     3. Ways to select between models
      
+     <p>..</p>
      > **Example to use LaTEX**
      
 $$\begin{aligned}
