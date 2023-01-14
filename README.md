@@ -17,8 +17,8 @@ Summary of CS-E4820 - Machine Learning: Advanced Probabilistic Methods @ Aalto U
 </details>
 
 $x^2$
-$
-\begin{aligned}
+
+$$\begin{aligned}
 &\text { Table 1: A table without vertical lines. }\\
 &\begin{array}{lcc}
 \hline & \text { Treatment A } & \text { Treatment B } \\
@@ -27,5 +27,4 @@ $
 \text { Mary Johnson } & 4 & 5 \\
 \hline
 \end{array}
-\end{aligned}
-$
+\end{aligned}$$
