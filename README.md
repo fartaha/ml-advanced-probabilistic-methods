@@ -29,12 +29,8 @@ Summary of CS-E4820 - Machine Learning: Advanced Probabilistic Methods @ Aalto U
       * Stochastic variational inference (SVI)
       * ::MCMC methods (missing)::
     3. Ways to select between models
-     * Baz
-     * Qux
-  
-* Joint Distribution
      
-     > **example**
+     > **Example to use LaTEX**
      
 $$\begin{aligned}
 &\text { Table 1: A table without vertical lines. }\\
@@ -47,29 +43,7 @@ $$\begin{aligned}
 \end{array}
 \end{aligned}$$
 
-* Marginilisation
-* ::Probabilitis::
 
   
 </details>
-
-$x^2$
-
-
-    1. Models
-      * Bayesian networks
-      * Sparse Bayesian linear regression
-      * Gaussian mixture models
-      * latent linear models
-    2. Methods for inference
-      * maximum likelihood
-      * maximum a posteriori (MAP)
-      * Laplace approximation
-      * expectation maximization (EM)
-      * Variational Bayes (VB)
-      * Stochastic variational inference (SVI)
-      * ::MCMC methods (missing)::
-    3. Ways to select between models
-     * Baz
-     * Qux
 
