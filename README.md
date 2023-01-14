@@ -62,6 +62,7 @@ $x^2$
   }
   ```
 </details>
+  
   ### Some Code
   ```js
   function logSomething(something) {
