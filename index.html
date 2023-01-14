@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+    <head>
+        <title>Machine Learning Advanced Probablistic Methods</title>
+        <link href="images/icon.svg" rel="icon">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700%7CRoboto+Slab:700%7CRoboto:400,400i,700" rel="stylesheet"><link href="ppc.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <meta content="https://fartaha.github.io/" property="og:url">
+        <meta content="images/icon.svg" property="og:image">
+        <meta content="Machine Learning Advanced Probablistic Methods" property="og:title">
+        <meta content="CS-E4820" property="og:description">
+        <meta content="article" property="og:type">
+        <meta content="summary" name="twitter:card">
+        
+<!-- 
+#===============================================================#
+#                    Make a slideshow                           #
+#===============================================================#
+-->    
+<style>
+* {box-sizing: border-box}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #0088cc;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+        
+    </head>
+       <body>
+        
+        <div id="wrap">
+            <div id="heading">
+                
+                <div class="menubar menufirst">
+                    <span class="menugroup"><a href="." class="menubutton selected" title="Deep Learning with PyTorch">CS-E4820</a></span><span class="menugroup"><a href="." class="menubutton" title="Exercises">Assignments</a></span> 
+                </div>
+                
+                <div id="titleblock">
+                    <h1>ML Advanced Probabilistic Methods</h1>
+                </div>
+
+                <div class="menubar menusecond">
+                    <span class="menugroup">
+                        <a href="." class="menubutton selected" title="Introduction">Lec1</a>
+                    </span>
+                    <span class="menugroup">
+                        <a href="lec2/" class="menubutton" title="Chapter 1: Role of parallelism">Lec2</a>
+                    </span>
+                    <span class="menugroup">
+                        <a href="lec3/" class="menubutton" title="Lectures">Lec3</a>
+                    </span>
+
+                </div>
+                   <center>
+                    <figure>
+                    <img src="images/cover1.png" style="width:50%">
+                        <p style="font-size: 8px">Image from 1RT003 Course at Uppsala University <a href="https://uppsala.instructure.com/courses/53069/pages/lectures">(link)</a></p>
+                    </figure>
+
+                </center>
+                <div id="maintitle"><h1>Introduction</h1></div>
+            </div>
+
+            <div id="body">
+    <p align="justify">This is a repo to summary a good course I have taken this semester at Aalto University. The course code is CS-E4820 lectured by <a href="https://scholar.google.com/citations?hl=en&user=id47-5cAAAAJ&view_op=list_works&sortby=pubdate">Prof. Pekka Martinen.</a> I will update the page after each in-person session of the course summarising the most important parts of the lectures as well the examples solved in session. I also add some extra examples from other sources as well when it is neccessary.</p>
+                <p align="justify">Feel free to make a pull request <a href="https://github.com/fartaha/ml-advanced-probabilistic-methods">@MLAPM</a>. If you are not familiar with HTML WEB pages, just edit the README.md to add your notes there and I will take care of the html things. Remember to create a pull request when your editing is done.</p>
+    <p align="justify"><em>Acknowledgements:</em> It is worth mentioning that the CSS file for creating this repo is exactly extracted from the great <a href="https://ppc.cs.aalto.fi/">PPC</a> course @ Aalto University and I have used their website as a template for this material. The only difference however is just modifying the CSS file a little bit to add a slideshow functionality to it.</p>
+                
+     <h3><span style="background: #FFFFE0">Review</span></h3>
+                <div class="example">
+
+<h3>1. Ingredients of probabilistic modeling:</h3>
+
+                <ul><li><b>Models:</b> <br />Bayesian networks, Sparse Bayesian linear regression,
+Gaussian mixture models, latent linear models</li>
+                    <li><b>Methods for inference:</b> <br />maximum likelihood, maximum a posteriori
+                        (MAP), Laplace approximation, expectation maximization (EM),
+                        Variational Bayes (VB), Stochastic variational inference (SVI) <br />
+                        
+                        
+                    <div class="example">
+                        <strong>Note: </strong><br />We don't go deep in <strong>MCMC methods</strong> because of overlapping with BDA course. The course focuses more on <span style="background: #FFFFE0"><em>deterministic</em></span> inference methods.
+                    </div>
+                    </li>
+                    <li><b>Ways to select between models</b></li>
+                    <li><b>Marginalization:</b><br />
+                    getting rid of one of the variables in joint probablity distribution with summation over the other parameter</li>
+                    <center><img src="images/ex1.png" style="width:80%"></center>
+                    <li><b>Independence:</b><br />
+                    p(b)p(m)=p(b, m)</li>
+                    <center><img src="images/ex2.png" style="width:50%"></center>
+                </ul>
+
+</div>
+
+                
+                
+    <h3>Examples from the slides</h3>
+                
+        <div class="slideshow-container">
+            
+            <div class="mySlides fade">
+                <div class="numbertext"> </div>
+                <center><img src="images/slide1.png" style="width:75%"></center>
+                <div class="text"> </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"> </div>
+                <center><img src="images/slide2.png" style="width:75%"></center>
+                <div class="text"> </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"> </div>
+                <center><img src="images/slide3.png" style="width:75%"></center>
+                <div class="text"> </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">⤺</a>
+            <a class="next" onclick="plusSlides(1)">⤻</a>
+
+        </div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+                
+
+                
+                
+                
+            </div>
+    <div id="footer"></div>
+            
+            
+        
+
+        
+        
+        
+<!-- 
+#===============➫=➫=======⤳=====================➥===============#
+#                    Make a slideshow with JS 
+#https://www.rapidtables.com/web/html/link/html-anchor-link.html#example
+https://css-tricks.com/on-adding-ids-to-headers/
+#===============================================================#
+-->    
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+        
+        
+    </body>
+</html>
