@@ -10,7 +10,7 @@ Summary of CS-E4820 - Machine Learning: Advanced Probabilistic Methods @ Aalto U
 * Probabilitis
 <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjEMSPtUWUY7xJ2n8mNUOr1RWajGqEGcZyJNjGtqtW5WMgor-m"
      alt="Bishop"
-     style="float: left; margin-right: 10px;" />
+     style="width:200px;" />
   
 </details>
 
