@@ -5,13 +5,33 @@ Summary of CS-E4820 - Machine Learning: Advanced Probabilistic Methods @ Aalto U
 <details open>
 <summary>Summary of Lec 1</summary>
 
-<p>     
-<details open>
-> <summary>Main Book</summary>
+     
+<details>
+  <summary>Main Book</summary>
+  
 <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjEMSPtUWUY7xJ2n8mNUOr1RWajGqEGcZyJNjGtqtW5WMgor-m" alt="Bishop"
                style="width:200px;" />
-     </details></p>
+</details>
      
+   ### ::Ingredients of probabilistic modeling::
+
+    1. Models
+      * Bayesian networks
+      * Sparse Bayesian linear regression
+      * Gaussian mixture models
+      * latent linear models
+    2. Methods for inference
+      * maximum likelihood
+      * maximum a posteriori (MAP)
+      * Laplace approximation
+      * expectation maximization (EM)
+      * Variational Bayes (VB)
+      * Stochastic variational inference (SVI)
+      * ::MCMC methods (missing)::
+    3. Ways to select between models
+     * Baz
+     * Qux
+  
 * Joint Distribution
      
      > **example**
