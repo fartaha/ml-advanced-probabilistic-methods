@@ -6,12 +6,16 @@ Summary of CS-E4820 - Machine Learning: Advanced Probabilistic Methods @ Aalto U
 <summary>Summary of Lec 1</summary>
 
      > Main Book
-     <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjEMSPtUWUY7xJ2n8mNUOr1RWajGqEGcZyJNjGtqtW5WMgor-m"
-     alt="Bishop"
-     style="width:200px;" />
+     
+          <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjEMSPtUWUY7xJ2n8mNUOr1RWajGqEGcZyJNjGtqtW5WMgor-m"
+          alt="Bishop"
+          style="width:200px;" />
+     
 * Joint Distribution
+     
      > **example**
-     $$\begin{aligned}
+     
+$$\begin{aligned}
 &\text { Table 1: A table without vertical lines. }\\
 &\begin{array}{lcc}
 \hline & \text { Treatment A } & \text { Treatment B } \\
