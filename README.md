@@ -13,7 +13,7 @@ Summary of CS-E4820 - Machine Learning: Advanced Probabilistic Methods @ Aalto U
                style="width:200px;" />
 </details>
      
-   ### ::Ingredients of probabilistic modeling::
+   ### Ingredients of probabilistic modeling
 
     1. Models
       * Bayesian networks
