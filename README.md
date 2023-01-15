@@ -1,4 +1,4 @@
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=jwenjian.visitor-badge)
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=fartaha.visitor-badge)
 
 # ml-advanced-probabilistic-methods
 Summary of CS-E4820 - Machine Learning: Advanced Probabilistic Methods @ Aalto University
