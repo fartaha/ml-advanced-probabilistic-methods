@@ -4,7 +4,7 @@
     <head>
         <title>Machine Learning Advanced Probablistic Methods</title>
         <link href="images/icon.svg" rel="icon">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700%7CRoboto+Slab:700%7CRoboto:400,400i,700" rel="stylesheet"><link href="ppc.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700%7CRoboto+Slab:700%7CRoboto:400,400i,700" rel="stylesheet"><link href="../ppc.css" rel="stylesheet" type="text/css">
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <meta content="https://fartaha.github.io/" property="og:url">
@@ -127,10 +127,10 @@ img {vertical-align: middle;}
 
                 <div class="menubar menusecond">
                     <span class="menugroup">
-                        <a href="." class="menubutton selected" title="Introduction">Lec1</a>
+                        <a href="../index.html" class="menubutton" title="Introduction">Lec1</a>
                     </span>
                     <span class="menugroup">
-                        <a href="/lectures/lec2.html" class="menubutton" title="Chapter 1: Role of parallelism">Lec2</a>
+                        <a href="./lec2.html" class="menubutton selected" title="Chapter 1: Role of parallelism">Lec2</a>
                     </span>
                     <span class="menugroup">
                         <a href="lec3/" class="menubutton" title="Lectures">Lec3</a>
@@ -151,6 +151,7 @@ img {vertical-align: middle;}
     <p align="justify">This is a repo to summarize a good course I have taken this semester at Aalto University. The course code is CS-E4820, lectured by <a href="https://scholar.google.com/citations?hl=en&user=id47-5cAAAAJ&view_op=list_works&sortby=pubdate">Prof. Pekka Martinen.</a> I will update the page after each in-person session of the course summarising the most important parts of the lectures as well the examples solved in session. I also add some extra examples from other sources as well when it is necessary.</p>
                 <p align="justify">Feel free to make a pull request <a href="https://github.com/fartaha/ml-advanced-probabilistic-methods">@MLAPM</a>. If you are not familiar with HTML WEB pages, just edit the README.md to add your notes there and I will take care of the html things. Remember to create a pull request when your editing is done.</p>
     <p align="justify"><em>Acknowledgements:</em> It is worth mentioning that the CSS file for creating this repo is exactly extracted from the great <a href="https://ppc.cs.aalto.fi/">PPC</a> course @ Aalto University and I have used their website as a template for this material. The only difference however is just modifying the CSS file a little bit to add a slideshow functionality to it.</p>
+                
                 <ul>
                     <li>The examples used in this review are mainly extracted from lecture slides and the reference books:
                     </li>
@@ -163,17 +164,22 @@ img {vertical-align: middle;}
      <h3><span style="background: #FFFFE0">Review</span></h3>
                 <div class="example">
 
-<h3>1. Ingredients of probabilistic modeling:</h3>
+<h3>1. Bayesian Networks</h3>
 
-                <ul><li><b>Models:</b> <br />Bayesian networks, Sparse Bayesian linear regression,
-Gaussian mixture models, latent linear models</li>
-                    <li><b>Methods for inference:</b> <br />maximum likelihood, maximum a posteriori
-                        (MAP), Laplace approximation, expectation maximization (EM),
-                        Variational Bayes (VB), Stochastic variational inference (SVI) <br />
+                <ul><li><b>Bayesian network:</b> <br />It's a graph and it's a joint distribution that factorizes according to the graph in the way specified by the conditionals extracted from the parents of each node (random variable).
+                    <ul><li>Why to use BNs: <br /> 1- Because of Computational Efficiency. In joint Distribution for growing number of random variables, the number of combination of combinations grows exponentially.(<span style="background: #FFFFE0">BNs, compact and concise way of representing joint distributions</span>)<br />2- Makes it easy to understand the model structure and dependencies conceptually. Efficient and optimized algorithms for graphs analysis.</li></ul></li>
+                    <center><img src="../images/lec2/lec2-1.png" style="width:80%"></center>
+                        <li><b>Independence<strong> A ⫫ B </strong>or <strong>A ⫫ B | E</strong> </b><br />How to read different independence and conditionally independence statements based on DAG:
+                            <ul><li>A ⫫ B: Are A and B dependent</li>
+                            <li>A ⫫ B | E: Could we say A and B are dependent conditionally on E</li>
+                            <li>D ⫫ E | C:</li>
+                            <li>A ⫫ B | C: if this statement holds then the joint distribution of a and b conditionally on c p(a,b|c) factorizes into product of p(a|c)p(b|c)
+                                <center><img src="../images/lec2/lec2-2.png" style="width:80%"></center></li>
+                            </ul><br />
                         
                         
                     <div class="example">
-                        <strong>Note: </strong><br />We don't go deep in <strong>MCMC methods</strong> because of overlapping with BDA course. The course focuses more on <span style="background: #FFFFE0"><em>deterministic</em></span> inference methods.
+                        <strong>Note: </strong><br />------- ---- <strong>--- ----</strong> ------. ----- <span style="background: #FFFFE0"><em>------</em></span> -----.
                     </div>
                     </li>
                     <li><b>Ways to select between models</b></li>
