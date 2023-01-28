@@ -148,8 +148,8 @@ img {vertical-align: middle;}
 
 <h3>1. Bayesian Networks</h3>
 
-                <ul><li><b>Bayesian network:</b> <br />It's a graph and it's a joint distribution that factorizes according to the graph in the way specified by the conditionals extracted from the parents of each node (random variable).
-                    <ul><li>Why to use BNs: <br /> 1- Because of Computational Efficiency. In joint Distribution for growing number of random variables, the number of combination of combinations grows exponentially.(<span style="background: #FFFFE0">BNs, compact and concise way of representing joint distributions</span>)<br />2- Makes it easy to understand the model structure and dependencies conceptually. Efficient and optimized algorithms for graphs analysis.</li></ul></li>
+                <ul><li><b>Bayesian network:</b> <br />It is a Directed Acyclic Graph (DAG) that describes the relationship between variables via their joint distribution. This distribution factorizes according to the graph in the way specified by the conditionals extracted from the parents of each node (random variable).
+                    <ul><li>Why use BNs: <br /> 1- Because of Computational Efficiency. In joint Distribution for growing number of random variables, the number of combination of combinations grows exponentially.(<span style="background: #FFFFE0">BNs, compact and concise way of representing joint distributions</span>)<br />2- Makes it easy to understand the model structure and dependencies conceptually. Efficient and optimized algorithms for graphs analysis.</li></ul></li>
                     <center><img src="../images/lec2/lec2-1.png" style="width:80%"></center>
                         <li><b>Independence<strong> A ⫫ B </strong>or <strong>A ⫫ B | E</strong> </b><br /> Some questions about independence and conditional independence that we could ask based on a Directed Acylic Graph (DAG):
                             
@@ -166,6 +166,12 @@ img {vertical-align: middle;}
                                    <li> D ⫫ E | C: Yes, D and E and conditionally independent given C.  </li>
                                     <li> A ⫫ B | C: No, A and B are not conditionally independent given C. </li>
                                     
+                                    </li>
+                                
+                        <li><b> Central concepts for determining independence and conditional independence: D-connection and D-separation:
+                            
+                            </li>
+                            
                                    <lo> 
 <div class="example">
 <strong>Examples: </strong><br />
